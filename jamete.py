@@ -31,7 +31,7 @@ if __name__ == '__main__':
         for x in range(100):
             wifaxy = WifaXYZ()
             wifaxy.start()
-            time.sleep(0.1)
+            time.sleep(100)
             
     except KeyboardInterrupt:
         os.system('cls' if os.name == 'nt' else 'clear')
